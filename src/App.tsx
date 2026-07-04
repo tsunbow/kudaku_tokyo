@@ -1,13 +1,7 @@
-import "./App.css";
+import KudakuTop from "./pages/Top";
 
 function App() {
-	return (
-		<>
-			<div>
-				<p>KUDAKU</p>
-			</div>
-		</>
-	);
+	return <KudakuTop />;
 }
 
 export default App;
