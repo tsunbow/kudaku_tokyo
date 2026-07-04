@@ -1,0 +1,18 @@
+const KudakuTop = () => (
+  <Fragment>
+    {/*  Hero */}
+    <p>Hero（実装予定）</p>
+
+    {/*  LetsTalk */}
+    <p>LetsTalk（実装予定）</p>
+
+    {/*  Statement */}
+    <p>Statement（実装予定）</p>
+
+    {/*  WhereWeAre */}
+    <p>WhereWeAre（実装予定）</p>
+
+    {/*  働く環境を知る */}
+    <p>働く環境を知る（実装予定）</p>
+  </Fragment>
+)

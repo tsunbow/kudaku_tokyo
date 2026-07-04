@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+  --color-red: #ff0000;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-white-muted: rgba(255, 255, 255, 0.5);
+
+  /* Font families */
+  --font-display: ivyora-display, sans-serif;
+  --font-nautica: nautica, sans-serif;
+  --font-ja: "Zen Kaku Gothic New", serif;
+
+  /* Text rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: url("../assets/img/bg_color.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#root {
+  width: 100%;
+}
