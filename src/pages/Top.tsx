@@ -1,24 +1,18 @@
-import { Fragment } from "react";
-
-// import Hero from "../sections/Hero";
-// import Statement from "../sections/Statement";
-// import WhereWeAre from "../sections/WhereWeAre";
-// import LetsTalk from "../sections/LetsTalk";
+const PlaceholderSection = ({ id, label }: { id: string; label: string }) => (
+	<section id={id} className="flex min-h-screen items-center justify-center">
+		<p className="font-ivyora text-2xl italic text-brand">
+			{label}
+		</p>
+	</section>
+);
 
 const KudakuTop = () => (
-	<Fragment>
-		{/* Hero */}
-		<p>Hero（実装予定）</p>
-
-		{/* Statement */}
-		<p>Statement（実装予定）</p>
-
-		{/* WhereWeAre */}
-		<p>WhereWeAre（実装予定）</p>
-
-		{/* LetsTalk */}
-		<p>LetsTalk（実装予定）</p>
-	</Fragment>
+	<>
+		<PlaceholderSection id="hero" label="Hero" />
+		<PlaceholderSection id="statement" label="Statement" />
+		<PlaceholderSection id="where-we-are" label="Where We Are" />
+		<PlaceholderSection id="lets-talk" label="Let's Talk" />
+	</>
 );
 
 export default KudakuTop;
